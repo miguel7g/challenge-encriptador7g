@@ -3,16 +3,18 @@
 
 1- Ralizacion de un encriptador de palabras, el mismo cuenta con la capacidad de:
 
-- Detectar cuando es una frase a encriptar
+- Detectar cuando es una frase para encriptar 🔐
 
-- Detectar cuando una frase ya esta encriptada
+- Detectar cuando una frase debe ser desencriptada 🔑 🔓
 
-- No permite que se ingrese, caracteres especiales, numero, ni letras en mayusculas
+- No permite que se ingrese, caracteres especiales, numero, ni letras en mayusculas ®
 
-- Precenta una inagen con interactividad
+- Precenta una imagenes con interactividad 🤸🏻‍♂️
 
-2- El editor usado para este proyecto es el IDE![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+- Tiene la posiblidad de copiar la frase procesada ya sea una frase encriptada o desencriptada 
+
+2- El editor usado para este proyecto es el IDE ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 3- El archivo READMI, se crea usando ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-4- Apoyado de un repositorio de![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) "https://ileriayo.github.io/markdown-badges" para gestionar estos badges estaticos.
+4- Apoyado de un repositorio de ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) "https://ileriayo.github.io/markdown-badges" para gestionar estos badges estaticos.
