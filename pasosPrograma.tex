@@ -1,5 +1,6 @@
-  *Pasos para el programa en Js
-
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Pasos para el programa en Js
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   1-deberia iniciar el programa como esta el html5
 
   2- crea elementos de captura para asignarlos uno para fotos y uno para textos relacionados al secction2
@@ -80,9 +81,9 @@
 
               *acciones si no presiono boton:
                     - llama a la funcuion temporizador() repetir y se ajusta el tiempo a 3000;
-
-            ULTIMOS CAMBIOS VIERNES 8
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         ULTIMOS CAMBIOS VIERNES 8
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
             - en la LINEA 286 se solicita habilitar el boton de encriptado nuevamente para corregir un posible error de bloqueo de ambos botones a la vez 
             ya que este boton es bloqueado despues que la validacion ejecuta una accion, y no vuelve a desabilitar a menos que se llame a la funcion repetir();
             por ende en este punto se va a hacer un llamdo a la funcion repetirencriptado(); y en este punto para encriptae el boton deberia estar ahabilitado 
@@ -170,5 +171,43 @@
                                 repetirdesencripta();"
 
             - En la LINEA 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     LUNES 11/3/2024
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    se realizaron una serie de prubeas y arreglos, entre ellos;
+    - se creo un repositorio local para compartir los archivos
+
+    * En el archivo html
+      - en las lineas 19-20 se aqgrego una etiqueta <a> para linquear la cuenta de quien realizo el proyecto y que puedan observar el codigo fuente
+      - en la line 52 se agrego una etiqueta de <label> para asignarle al usuario que es un boton de copiado porque el boton tiene un nombre tematico 
+      - tambien se asigo un emoji al boton de copiado que indica que ese es su usuario
+      -en la linea 96 existia un / que estaba interfiriendo en la ruta de apertura del proyecto error 404
+
+    * En el Archivo CSS
+      - en la linea 63 se le da estilo a la etiqueta <a> color especificamente
+      - en la linea 110 se le realizo un cambio al hoover del texare1 se cabio el cursor: de pointer a text, generaba confucion 
+      - en las lineas 218,235 y 293 se eliminaron / y se asignaron "", para que el servidor encontrara las imagenes relacionadas, generaba un error 404
+      - en la linea 302 se realiza el mismo trabajo que en la linea 110, pero en texarea2
+      - en la linea 337 se aplican estilos a la etiqueta label 
+    
+    * En el Archivo Js
+      - desde l alinea 32-37 se corrige un array de imagenes con ruta mala por un /, generava 404
+      - linea 285 se agregan los numeros a la funcio de reconocimiento de caracteres, no estaba reconociendo los numeros 
+      - linea 389 se agrega codigo para desabilitacion del boton desencriptado ya que estaba ejecutando la accion de una encriptaciones
+      - linea 441 se agrega codigo para la habilitacion del boton desencriptado porque este se desabilita en un sector arriba n el codigo 
+      - linea 587 se agrega codigo para desabilitacion del boton encriptado ya que estaba ejecutando la accion de una encriptaciones
+      - linea 654 se agrega codigo para habilitacion del boton encriptado ya que estaba ejecutando la accion de una encriptaciones
+      - se realiza la eliminacion de console.log innecesarios en el codigo al rededor de 75 que se encontraban entre la linea 121 y la 717
+    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         MIERCOLES 13/3/2024
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        -Se crea el archivo README
+        - Se realizan pruebas y commits de varios cambios 
+        - Se crea un repositorio remoto y local.
+        - Se crea la direccion web del proyecto https://miguel7g.github.io/challenge-encriptador7g/
+        - Se crea dos topics
+        - Se publica en el ¡formulário del Alura Challenge!
        
           
